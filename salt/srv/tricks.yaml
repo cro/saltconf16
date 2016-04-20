@@ -1,0 +1,6 @@
+tricks:
+  - watchdog.tricks.ShellCommandTrick:
+      patterns: ["*"]
+      shell_command: "echo 'Running highstate...'; sdc -q state.highstate"
+      drop_during_process: True
+

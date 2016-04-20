@@ -1,0 +1,9 @@
+file_roots:
+  base:
+    - /Users/cro/src/ve/ssc3/salt/srv/salt
+
+pillar_roots:
+  base:
+    - /Users/cro/src/ve/ssc3/salt/srv/pillar
+
+root_dir: /Users/cro/src/ve/ssc3/salt
